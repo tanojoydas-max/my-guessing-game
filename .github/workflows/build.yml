@@ -17,8 +17,9 @@ jobs:
           python-version: '3.11'
 
       - name: Run Buildozer Action
-        uses: ArtemGovorov/buildozer-action@v1
+        uses: subzero916/buildozer-action@v1
         with:
           command: buildozer android debug
           repository_root: .
+          
           
